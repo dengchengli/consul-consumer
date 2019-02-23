@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    consul:
+      discovery:
+        register: false
+      host: localhost
+      port: 8500
+
+feign:
+  client:
+    default-config:
